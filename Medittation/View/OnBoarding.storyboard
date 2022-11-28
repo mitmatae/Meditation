@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="X21-fy-Kll">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Alegreya-Bold.ttf">
+            <string>Alegreya-Bold</string>
+        </array>
+        <array key="Alegreya-Regular.ttf">
+            <string>Alegreya-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--On Boarding-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController id="Y6W-OH-hqX" customClass="OnBoarding" customModule="Medittation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="Lpr-mF-8Da">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="p0Y-pJ-YIS">
+                                <rect key="frame" x="106" y="221.5" width="202" height="213"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="Fts-1B-tPc">
+                                <rect key="frame" x="27" y="658" width="360" height="119"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R0a-wQ-i57" customClass="CustomButton" customModule="Medittation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="360" height="61"/>
+                                        <color key="backgroundColor" name="RoundedGreenButtonBackroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="7jc-KK-zSe"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Войти в аккаунт">
+                                            <color key="titleColor" name="RoundedGreenButtonTitleTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="JiE-Vs-ayg" kind="showDetail" id="Q9B-Rf-PXG"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jDL-5T-QAW">
+                                        <rect key="frame" x="0.0" y="79" width="360" height="40"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Ещё нет аккаунта? ">
+                                                    <attributes>
+                                                        <font key="NSFont" size="19" name="Alegreya-Regular"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                                <fragment content="Зарегистрируйтесь">
+                                                    <attributes>
+                                                        <font key="NSFont" size="19" name="Alegreya-Bold"/>
+                                                        <font key="NSOriginalFont" size="19" name="Alegreya-Bold"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                            <color key="baseForegroundColor" name="TextButtonTitleTextColor"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="1VU-DY-NaU" kind="show" id="Ffi-nh-Fj8"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="hTb-Og-W19">
+                                <rect key="frame" x="0.0" y="466.5" width="414" height="133.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ПРИВЕТ!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Kg-w3-Gy6">
+                                        <rect key="frame" x="137" y="0.0" width="140.5" height="46.5"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Bold" family="Alegreya" pointSize="34"/>
+                                        <color key="textColor" name="WhiteLableTextColore"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F5a-Xd-RyC">
+                                        <rect key="frame" x="84.5" y="51.5" width="245.5" height="82"/>
+                                        <string key="text">Наслаждайся отборочными.
+Будь внимателен. 
+Делай хорошо.</string>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="20"/>
+                                        <color key="textColor" name="WhiteLableTextColore"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="hTb-Og-W19" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="6zw-0Q-1Qd"/>
+                            <constraint firstAttribute="bottom" secondItem="Lpr-mF-8Da" secondAttribute="bottom" id="9Re-r0-OvA"/>
+                            <constraint firstItem="p0Y-pJ-YIS" firstAttribute="centerY" secondItem="Lpr-mF-8Da" secondAttribute="centerY" constant="-120" id="Gdi-FO-dtW"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="Fts-1B-tPc" secondAttribute="trailing" constant="27" id="TyJ-wi-KH3"/>
+                            <constraint firstItem="Lpr-mF-8Da" firstAttribute="top" secondItem="5EZ-qb-Rvc" secondAttribute="top" id="YGe-rP-1YB"/>
+                            <constraint firstItem="Fts-1B-tPc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="27" id="Z3h-UO-9Yb"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="hTb-Og-W19" secondAttribute="trailing" id="cq3-Lr-vwA"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="bottom" secondItem="Fts-1B-tPc" secondAttribute="bottom" constant="85" id="eZ2-v6-BDB"/>
+                            <constraint firstItem="Lpr-mF-8Da" firstAttribute="leading" secondItem="5EZ-qb-Rvc" secondAttribute="leading" id="jzo-19-Rd2"/>
+                            <constraint firstItem="hTb-Og-W19" firstAttribute="top" secondItem="p0Y-pJ-YIS" secondAttribute="bottom" constant="32" id="onh-cF-8nr"/>
+                            <constraint firstAttribute="trailing" secondItem="Lpr-mF-8Da" secondAttribute="trailing" id="pVQ-rF-yTC"/>
+                            <constraint firstItem="p0Y-pJ-YIS" firstAttribute="centerX" secondItem="Lpr-mF-8Da" secondAttribute="centerX" id="pez-M8-4wi"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="iAc-kV-WiO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1013.0434782608696" y="59.598214285714285"/>
+        </scene>
+        <!--SignIn-->
+        <scene sceneID="ort-HT-8ds">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignIn" id="JiE-Vs-ayg" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QnL-6N-n87" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1555" y="-14"/>
+        </scene>
+        <!--SignUp-->
+        <scene sceneID="VDQ-db-Akf">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUp" id="1VU-DY-NaU" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aOn-dy-h1Y"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nml-Uu-VZu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1488.4057971014495" y="99.776785714285708"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="RhN-Nw-E0I">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="X21-fy-Kll" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="OCj-DE-5pk">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" name="TextButtonTitleTextColor"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Y6W-OH-hqX" kind="relationship" relationship="rootViewController" id="3Ke-v3-pke"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RDH-TO-aUM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="102.89855072463769" y="59.598214285714285"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="R0a-wQ-i57">
+            <size key="intrinsicContentSize" width="175" height="47"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Background" width="375" height="812"/>
+        <image name="Logo" width="202" height="213"/>
+        <namedColor name="RoundedGreenButtonBackroundColor">
+            <color red="0.48627450980392156" green="0.60392156862745094" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RoundedGreenButtonTitleTextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextButtonTitleTextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteLableTextColore">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

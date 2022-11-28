@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19162" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Y6W-OH-hqX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19144"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Alegreya-Medium.ttf">
+            <string>Alegreya-Medium</string>
+        </array>
+        <array key="Alegreya-Regular.ttf">
+            <string>Alegreya-Regular</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Sing In-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController modalPresentationStyle="fullScreen" id="Y6W-OH-hqX" customClass="SingIn" customModule="Medittation" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Logo" translatesAutoresizingMaskIntoConstraints="NO" id="XDA-p8-hup">
+                                <rect key="frame" x="15" y="144" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="J2a-Hx-gTX"/>
+                                    <constraint firstAttribute="height" constant="50" id="U55-WI-GMM"/>
+                                </constraints>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="M3F-16-soc">
+                                <rect key="frame" x="35" y="407.5" width="344" height="91"/>
+                                <subviews>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="wEE-jQ-lPa" customClass="CustomTextField" customModule="Medittation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="26"/>
+                                        <color key="textColor" name="WhiteLableTextColore"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="colorPlaceholder">
+                                                <color key="value" name="TextFilderPlaceholderColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bottomLineColor">
+                                                <color key="value" name="TextFilderBottonLineColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder=" Пароль" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3Lp-Qm-zbh" customClass="CustomTextField" customModule="Medittation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="66" width="344" height="25"/>
+                                        <color key="textColor" name="WhiteLableTextColore"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="18"/>
+                                        <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="colorPlaceholder">
+                                                <color key="value" name="TextFilderPlaceholderColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bottomLineColor">
+                                                <color key="value" name="TextFilderBottonLineColor"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="yxZ-WU-K1B">
+                                <rect key="frame" x="35" y="548.5" width="344" height="102"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Nx-Ns-eFf" customClass="CustomButton" customModule="Medittation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="344" height="61"/>
+                                        <color key="backgroundColor" name="RoundedGreenButtonBackroundColor"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="61" id="oLc-hn-irx"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="25"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Sign in">
+                                            <color key="titleColor" name="RoundedGreenButtonTitleTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="singInAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="kqX-Cn-dKA"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="leading" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JGm-MJ-lNf" customClass="CustomButton" customModule="Medittation" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="69" width="344" height="33"/>
+                                        <fontDescription key="fontDescription" name="Alegreya-Regular" family="Alegreya" pointSize="15"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" name="RoundedGreenButtonTitleTextColor"/>
+                                        </state>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <segue destination="Fh2-LM-lXc" kind="showDetail" id="fwh-SE-G61"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cwn-3Z-UTy">
+                                <rect key="frame" x="15" y="244" width="384" height="41"/>
+                                <fontDescription key="fontDescription" name="Alegreya-Medium" family="Alegreya" pointSize="30"/>
+                                <color key="textColor" name="WhiteLableTextColore"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" name="GreenViewBackroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yxZ-WU-K1B" firstAttribute="top" secondItem="M3F-16-soc" secondAttribute="bottom" constant="50" id="1JM-cr-4jz"/>
+                            <constraint firstItem="M3F-16-soc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="35" id="VlT-Hm-n2F"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="yxZ-WU-K1B" secondAttribute="trailing" constant="35" id="YQp-4O-PCy"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="M3F-16-soc" secondAttribute="trailing" constant="35" id="eNK-fl-W1C"/>
+                            <constraint firstItem="M3F-16-soc" firstAttribute="centerY" secondItem="vDu-zF-Fre" secondAttribute="centerY" id="g11-se-ovC"/>
+                            <constraint firstItem="XDA-p8-hup" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="nyE-cl-v0Z"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="cwn-3Z-UTy" secondAttribute="trailing" constant="15" id="pfJ-kX-DJ9"/>
+                            <constraint firstItem="yxZ-WU-K1B" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="35" id="rT1-tt-OtG"/>
+                            <constraint firstItem="M3F-16-soc" firstAttribute="centerX" secondItem="vDu-zF-Fre" secondAttribute="centerX" id="sQ3-7L-drQ"/>
+                            <constraint firstItem="XDA-p8-hup" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="100" id="udp-7K-dR9"/>
+                            <constraint firstItem="cwn-3Z-UTy" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="15" id="uj9-mS-ecU"/>
+                            <constraint firstItem="cwn-3Z-UTy" firstAttribute="top" secondItem="XDA-p8-hup" secondAttribute="bottom" constant="50" id="umz-r3-ltw"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="email" destination="wEE-jQ-lPa" id="PzZ-MZ-PWV"/>
+                        <outlet property="password" destination="3Lp-Qm-zbh" id="5P0-dl-c9I"/>
+                        <segue destination="mbz-wU-tbk" kind="showDetail" identifier="mainSegue" id="4sq-IJ-mc3"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8.6956521739130448" y="59.598214285714285"/>
+        </scene>
+        <!--MainScreen-->
+        <scene sceneID="NNa-ra-FWp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="MainScreen" id="mbz-wU-tbk" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="d9G-hQ-R5u" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="584" y="-15"/>
+        </scene>
+        <!--SignUp-->
+        <scene sceneID="fFV-ab-l8n">
+            <objects>
+                <viewControllerPlaceholder storyboardName="SignUp" id="Fh2-LM-lXc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rFH-Vf-qYS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="565" y="137"/>
+        </scene>
+    </scenes>
+    <designables>
+        <designable name="3Lp-Qm-zbh">
+            <size key="intrinsicContentSize" width="60" height="25"/>
+        </designable>
+        <designable name="7Nx-Ns-eFf">
+            <size key="intrinsicContentSize" width="72" height="47"/>
+        </designable>
+        <designable name="JGm-MJ-lNf">
+            <size key="intrinsicContentSize" width="51" height="33"/>
+        </designable>
+        <designable name="wEE-jQ-lPa">
+            <size key="intrinsicContentSize" width="43" height="26"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="Logo" width="202" height="213"/>
+        <namedColor name="GreenViewBackroundColor">
+            <color red="0.14509803921568626" green="0.20000000000000001" blue="0.20392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RoundedGreenButtonBackroundColor">
+            <color red="0.48627450980392156" green="0.60392156862745094" blue="0.5725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="RoundedGreenButtonTitleTextColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextFilderBottonLineColor">
+            <color red="0.74509803921568629" green="0.76078431372549016" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="TextFilderPlaceholderColor">
+            <color red="0.74509803921568629" green="0.76078431372549016" blue="0.76078431372549016" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="WhiteLableTextColore">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

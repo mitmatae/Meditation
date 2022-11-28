@@ -7,23 +7,62 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3466A632933673F00F3E3B6 /* QuoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3466A622933673F00F3E3B6 /* QuoteCell.swift */; };
+		B3466A65293387CB00F3E3B6 /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3466A64293387CB00F3E3B6 /* PhotoCell.swift */; };
+		B3818A2B293477C3000B3602 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = B3818A2A293477C3000B3602 /* Realm */; };
+		B3818A2D293477C3000B3602 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B3818A2C293477C3000B3602 /* RealmSwift */; };
+		B3818A302934791B000B3602 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3818A2F2934791B000B3602 /* Photo.swift */; };
 		B3857B72292F6E220075E63C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857B71292F6E220075E63C /* AppDelegate.swift */; };
 		B3857B74292F6E220075E63C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857B73292F6E220075E63C /* SceneDelegate.swift */; };
-		B3857B76292F6E220075E63C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857B75292F6E220075E63C /* ViewController.swift */; };
-		B3857B79292F6E220075E63C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857B77292F6E220075E63C /* Main.storyboard */; };
+		B3857B76292F6E220075E63C /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857B75292F6E220075E63C /* MainScreen.swift */; };
+		B3857B79292F6E220075E63C /* MainScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857B77292F6E220075E63C /* MainScreen.storyboard */; };
 		B3857B7B292F6E270075E63C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3857B7A292F6E270075E63C /* Assets.xcassets */; };
 		B3857B7E292F6E270075E63C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857B7C292F6E270075E63C /* LaunchScreen.storyboard */; };
+		B3857B8A292F7B880075E63C /* OnBoarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857B89292F7B880075E63C /* OnBoarding.storyboard */; };
+		B3857B8C2930AB2F0075E63C /* OnBoarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857B8B2930AB2F0075E63C /* OnBoarding.swift */; };
+		B3857BA02930B7D90075E63C /* Alegreya-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3857B952930B7D90075E63C /* Alegreya-Bold.ttf */; };
+		B3857BA22930B7D90075E63C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = B3857B972930B7D90075E63C /* OFL.txt */; };
+		B3857BA42930B7D90075E63C /* Alegreya-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3857B992930B7D90075E63C /* Alegreya-Medium.ttf */; };
+		B3857BA52930B7D90075E63C /* Alegreya-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3857B9A2930B7D90075E63C /* Alegreya-Regular.ttf */; };
+		B3857BA72931DBB90075E63C /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857BA62931DBB80075E63C /* CustomButton.swift */; };
+		B3857BA92931F4CE0075E63C /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857BA82931F4CE0075E63C /* SignUp.storyboard */; };
+		B3857BAB2931FAFB0075E63C /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857BAA2931FAFB0075E63C /* SignIn.storyboard */; };
+		B3857BAD2931FEA20075E63C /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857BAC2931FEA20075E63C /* CustomTextField.swift */; };
+		B3857BAF29320EBC0075E63C /* SingIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857BAE29320EBC0075E63C /* SingIn.swift */; };
+		B3857BB229320F2C0075E63C /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B3857BB129320F2C0075E63C /* Alamofire */; };
+		B3857BB529320F460075E63C /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = B3857BB429320F460075E63C /* SwiftyJSON */; };
+		B3857BB7293237250075E63C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857BB6293237250075E63C /* Profile.swift */; };
+		B3857BB929323D280075E63C /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3857BB829323D280075E63C /* Menu.storyboard */; };
+		B3857BBF293260520075E63C /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = B3857BBE293260520075E63C /* IQKeyboardManagerSwift */; };
+		B3857BC129327DBF0075E63C /* FeelingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3857BC029327DBE0075E63C /* FeelingCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B3466A622933673F00F3E3B6 /* QuoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteCell.swift; sourceTree = "<group>"; };
+		B3466A64293387CB00F3E3B6 /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
+		B3818A2F2934791B000B3602 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		B3857B6E292F6E220075E63C /* Medittation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Medittation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3857B71292F6E220075E63C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3857B73292F6E220075E63C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B3857B75292F6E220075E63C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B3857B78292F6E220075E63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B3857B75292F6E220075E63C /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		B3857B78292F6E220075E63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainScreen.storyboard; sourceTree = "<group>"; };
 		B3857B7A292F6E270075E63C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3857B7D292F6E270075E63C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3857B7F292F6E270075E63C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3857B89292F7B880075E63C /* OnBoarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoarding.storyboard; sourceTree = "<group>"; };
+		B3857B8B2930AB2F0075E63C /* OnBoarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoarding.swift; sourceTree = "<group>"; };
+		B3857B952930B7D90075E63C /* Alegreya-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Bold.ttf"; sourceTree = "<group>"; };
+		B3857B972930B7D90075E63C /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		B3857B992930B7D90075E63C /* Alegreya-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Medium.ttf"; sourceTree = "<group>"; };
+		B3857B9A2930B7D90075E63C /* Alegreya-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Alegreya-Regular.ttf"; sourceTree = "<group>"; };
+		B3857BA62931DBB80075E63C /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		B3857BA82931F4CE0075E63C /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		B3857BAA2931FAFB0075E63C /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		B3857BAC2931FEA20075E63C /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B3857BAE29320EBC0075E63C /* SingIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingIn.swift; sourceTree = "<group>"; };
+		B3857BB6293237250075E63C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		B3857BB829323D280075E63C /* Menu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu.storyboard; sourceTree = "<group>"; };
+		B3857BC029327DBE0075E63C /* FeelingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeelingCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,12 +70,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3857BBF293260520075E63C /* IQKeyboardManagerSwift in Frameworks */,
+				B3857BB529320F460075E63C /* SwiftyJSON in Frameworks */,
+				B3818A2B293477C3000B3602 /* Realm in Frameworks */,
+				B3818A2D293477C3000B3602 /* RealmSwift in Frameworks */,
+				B3857BB229320F2C0075E63C /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B3818A2E293478E5000B3602 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3818A2F2934791B000B3602 /* Photo.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		B3857B65292F6E220075E63C = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +108,72 @@
 		B3857B70292F6E220075E63C /* Medittation */ = {
 			isa = PBXGroup;
 			children = (
-				B3857B71292F6E220075E63C /* AppDelegate.swift */,
-				B3857B73292F6E220075E63C /* SceneDelegate.swift */,
-				B3857B75292F6E220075E63C /* ViewController.swift */,
-				B3857B77292F6E220075E63C /* Main.storyboard */,
-				B3857B7A292F6E270075E63C /* Assets.xcassets */,
-				B3857B7C292F6E270075E63C /* LaunchScreen.storyboard */,
-				B3857B7F292F6E270075E63C /* Info.plist */,
+				B3818A2E293478E5000B3602 /* Model */,
+				B3857B87292F6EB50075E63C /* Application */,
+				B3857B88292F6ED90075E63C /* Controller */,
+				B3857B86292F6E7E0075E63C /* View */,
+				B3857B85292F6E5B0075E63C /* Supporting fails */,
 			);
 			path = Medittation;
+			sourceTree = "<group>";
+		};
+		B3857B85292F6E5B0075E63C /* Supporting fails */ = {
+			isa = PBXGroup;
+			children = (
+				B3857B8D2930B7A70075E63C /* Fonts */,
+				B3857B7A292F6E270075E63C /* Assets.xcassets */,
+				B3857B7F292F6E270075E63C /* Info.plist */,
+			);
+			path = "Supporting fails";
+			sourceTree = "<group>";
+		};
+		B3857B86292F6E7E0075E63C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3857B7C292F6E270075E63C /* LaunchScreen.storyboard */,
+				B3857B77292F6E220075E63C /* MainScreen.storyboard */,
+				B3857B89292F7B880075E63C /* OnBoarding.storyboard */,
+				B3857BA82931F4CE0075E63C /* SignUp.storyboard */,
+				B3857BAA2931FAFB0075E63C /* SignIn.storyboard */,
+				B3857BB829323D280075E63C /* Menu.storyboard */,
+				B3857BC029327DBE0075E63C /* FeelingCell.swift */,
+				B3466A622933673F00F3E3B6 /* QuoteCell.swift */,
+				B3466A64293387CB00F3E3B6 /* PhotoCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3857B87292F6EB50075E63C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				B3857B73292F6E220075E63C /* SceneDelegate.swift */,
+				B3857B71292F6E220075E63C /* AppDelegate.swift */,
+				B3857BA62931DBB80075E63C /* CustomButton.swift */,
+				B3857BAC2931FEA20075E63C /* CustomTextField.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		B3857B88292F6ED90075E63C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B3857B75292F6E220075E63C /* MainScreen.swift */,
+				B3857B8B2930AB2F0075E63C /* OnBoarding.swift */,
+				B3857BAE29320EBC0075E63C /* SingIn.swift */,
+				B3857BB6293237250075E63C /* Profile.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B3857B8D2930B7A70075E63C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B3857B952930B7D90075E63C /* Alegreya-Bold.ttf */,
+				B3857B992930B7D90075E63C /* Alegreya-Medium.ttf */,
+				B3857B9A2930B7D90075E63C /* Alegreya-Regular.ttf */,
+				B3857B972930B7D90075E63C /* OFL.txt */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +192,13 @@
 			dependencies = (
 			);
 			name = Medittation;
+			packageProductDependencies = (
+				B3857BB129320F2C0075E63C /* Alamofire */,
+				B3857BB429320F460075E63C /* SwiftyJSON */,
+				B3857BBE293260520075E63C /* IQKeyboardManagerSwift */,
+				B3818A2A293477C3000B3602 /* Realm */,
+				B3818A2C293477C3000B3602 /* RealmSwift */,
+			);
 			productName = Medittation;
 			productReference = B3857B6E292F6E220075E63C /* Medittation.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +227,12 @@
 				Base,
 			);
 			mainGroup = B3857B65292F6E220075E63C;
+			packageReferences = (
+				B3857BB029320F2C0075E63C /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B3857BB329320F460075E63C /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				B3857BBD293260520075E63C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				B3818A29293477C3000B3602 /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = B3857B6F292F6E220075E63C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +247,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3857B8A292F7B880075E63C /* OnBoarding.storyboard in Resources */,
+				B3857BA42930B7D90075E63C /* Alegreya-Medium.ttf in Resources */,
+				B3857BA92931F4CE0075E63C /* SignUp.storyboard in Resources */,
 				B3857B7E292F6E270075E63C /* LaunchScreen.storyboard in Resources */,
+				B3857BA52930B7D90075E63C /* Alegreya-Regular.ttf in Resources */,
+				B3857BA22930B7D90075E63C /* OFL.txt in Resources */,
+				B3857BB929323D280075E63C /* Menu.storyboard in Resources */,
+				B3857BAB2931FAFB0075E63C /* SignIn.storyboard in Resources */,
 				B3857B7B292F6E270075E63C /* Assets.xcassets in Resources */,
-				B3857B79292F6E220075E63C /* Main.storyboard in Resources */,
+				B3857BA02930B7D90075E63C /* Alegreya-Bold.ttf in Resources */,
+				B3857B79292F6E220075E63C /* MainScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,21 +268,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3857B76292F6E220075E63C /* ViewController.swift in Sources */,
+				B3818A302934791B000B3602 /* Photo.swift in Sources */,
+				B3466A632933673F00F3E3B6 /* QuoteCell.swift in Sources */,
+				B3857BC129327DBF0075E63C /* FeelingCell.swift in Sources */,
+				B3857B76292F6E220075E63C /* MainScreen.swift in Sources */,
+				B3857BB7293237250075E63C /* Profile.swift in Sources */,
 				B3857B72292F6E220075E63C /* AppDelegate.swift in Sources */,
+				B3857BAD2931FEA20075E63C /* CustomTextField.swift in Sources */,
+				B3857B8C2930AB2F0075E63C /* OnBoarding.swift in Sources */,
+				B3857BAF29320EBC0075E63C /* SingIn.swift in Sources */,
 				B3857B74292F6E220075E63C /* SceneDelegate.swift in Sources */,
+				B3466A65293387CB00F3E3B6 /* PhotoCell.swift in Sources */,
+				B3857BA72931DBB90075E63C /* CustomButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B3857B77292F6E220075E63C /* Main.storyboard */ = {
+		B3857B77292F6E220075E63C /* MainScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B3857B78292F6E220075E63C /* Base */,
 			);
-			name = Main.storyboard;
+			name = MainScreen.storyboard;
 			sourceTree = "<group>";
 		};
 		B3857B7C292F6E270075E63C /* LaunchScreen.storyboard */ = {
@@ -217,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +411,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,12 +429,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Medittation/Info.plist;
+				INFOPLIST_FILE = "Medittation/Supporting fails/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Медитация";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,7 +447,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -317,12 +459,15 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Medittation/Info.plist;
+				INFOPLIST_FILE = "Medittation/Supporting fails/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Медитация";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SignIn;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +477,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -358,6 +503,69 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B3818A29293477C3000B3602 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		B3857BB029320F2C0075E63C /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.6.0;
+			};
+		};
+		B3857BB329320F460075E63C /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		B3857BBD293260520075E63C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B3818A2A293477C3000B3602 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3818A29293477C3000B3602 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		B3818A2C293477C3000B3602 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3818A29293477C3000B3602 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		B3857BB129320F2C0075E63C /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3857BB029320F2C0075E63C /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B3857BB429320F460075E63C /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3857BB329320F460075E63C /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		B3857BBE293260520075E63C /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B3857BBD293260520075E63C /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B3857B66292F6E220075E63C /* Project object */;
 }
